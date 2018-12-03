@@ -61,3 +61,16 @@ footer ul {
     display: flex;
     justify-content: center;
 }
+@media screen and (max-width: 30rem) {
+    header, 
+    main, 
+    footer,
+    form p {
+        flex-direction: column;
+    }
+    
+    @media only screen and (max-width: 900px) {
+    body {
+        background-color: lightblue;
+    }
+}
